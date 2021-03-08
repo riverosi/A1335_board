@@ -263,15 +263,11 @@ Wire Wire Line
 Wire Wire Line
 	6175 1475 6875 1475
 Wire Wire Line
-	4825 3125 4575 3125
-Wire Wire Line
 	4825 1925 4825 3125
 Wire Wire Line
 	7125 3575 7125 3225
 Wire Wire Line
 	6875 3225 7125 3225
-Wire Wire Line
-	7125 3225 7275 3225
 Connection ~ 7125 3225
 Wire Wire Line
 	7225 4125 7225 3675
@@ -297,8 +293,6 @@ Wire Wire Line
 	5275 4225 5275 3825
 Wire Wire Line
 	5125 3825 5275 3825
-Wire Wire Line
-	5275 3825 5375 3825
 Connection ~ 5275 3825
 Wire Wire Line
 	6675 1925 4825 1925
@@ -308,7 +302,7 @@ U 1 1 5EA6E290
 P 4275 3225
 F 0 "J1" H 4425 3125 50  0000 C CNN
 F 1 "TERMINALES1" H 4625 3225 50  0000 C CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x05_P5.00mm_45-Degree" H 4275 3225 50  0001 C CNN
+F 2 "Terminal_Block_WR_TBL:terminal_block_1x05_45DEG_3.81MM_5POS" H 4275 3225 50  0001 C CNN
 F 3 "~" H 4275 3225 50  0001 C CNN
 	1    4275 3225
 	-1   0    0    1   
@@ -403,7 +397,7 @@ U 1 1 5EA71BA0
 P 7525 3225
 F 0 "J2" H 7605 3217 50  0000 L CNN
 F 1 "TERMINALES2" H 7605 3126 50  0000 L CNN
-F 2 "TerminalBlock_Altech:Altech_AK300_1x05_P5.00mm_45-Degree" H 7525 3225 50  0001 C CNN
+F 2 "Terminal_Block_WR_TBL:terminal_block_1x05_45DEG_3.81MM_5POS" H 7525 3225 50  0001 C CNN
 F 3 "~" H 7525 3225 50  0001 C CNN
 	1    7525 3225
 	1    0    0    1   
@@ -420,54 +414,6 @@ Wire Wire Line
 	6700 2925 5125 2925
 Connection ~ 7325 3025
 Connection ~ 4475 3425
-$Comp
-L Connector:TestPoint T-VCC1
-U 1 1 5EBD37F0
-P 5375 4375
-F 0 "T-VCC1" H 5317 4401 50  0000 R CNN
-F 1 "TestPoint" H 5317 4492 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 5575 4375 50  0001 C CNN
-F 3 "~" H 5575 4375 50  0001 C CNN
-	1    5375 4375
-	-1   0    0    1   
-$EndComp
-Connection ~ 5375 3825
-Wire Wire Line
-	5375 3825 5575 3825
-$Comp
-L Connector:TestPoint T-MISO1
-U 1 1 5EBD42E2
-P 4575 2975
-F 0 "T-MISO1" H 4425 3200 50  0000 L CNN
-F 1 "TestPoint" H 4175 3100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 4775 2975 50  0001 C CNN
-F 3 "~" H 4775 2975 50  0001 C CNN
-	1    4575 2975
-	1    0    0    -1  
-$EndComp
-Connection ~ 4575 3125
-Wire Wire Line
-	4575 3125 4475 3125
-$Comp
-L Connector:TestPoint T-SDA1
-U 1 1 5EBD499D
-P 7275 2975
-F 0 "T-SDA1" H 7375 3200 50  0000 L CNN
-F 1 "TestPoint" H 7375 3100 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm" H 7475 2975 50  0001 C CNN
-F 3 "~" H 7475 2975 50  0001 C CNN
-	1    7275 2975
-	1    0    0    -1  
-$EndComp
-Connection ~ 7275 3225
-Wire Wire Line
-	7275 3225 7325 3225
-Wire Wire Line
-	7275 2975 7275 3225
-Wire Wire Line
-	4575 2975 4575 3125
-Wire Wire Line
-	5375 3825 5375 4375
 $Comp
 L Device:LED_Small_ALT LED1
 U 1 1 5EB0B474
@@ -566,4 +512,10 @@ F 3 "~" H 9100 2525 50  0001 C CNN
 	1    9100 2525
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4475 3125 4825 3125
+Wire Wire Line
+	7125 3225 7325 3225
+Wire Wire Line
+	5275 3825 5575 3825
 $EndSCHEMATC

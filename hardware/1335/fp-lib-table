@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Terminal_Block_WR_TBL)(type KiCad)(uri ${KIPRJMOD}/Terminal_Block_WR_TBL.pretty)(options "")(descr ""))
+  (lib (name FES)(type KiCad)(uri ${KIPRJMOD}/FES.pretty)(options "")(descr ""))
+)

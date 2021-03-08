@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Terminal_Block_WR_TBL)(type KiCad)(uri ${KIPRJMOD}/Terminal_Block_WR_TBL.pretty)(options "")(descr ""))
+  (lib (name Tssop_14)(type KiCad)(uri ${KIPRJMOD}/Tssop_14.pretty)(options "")(descr ""))
+  (lib (name lconos)(type KiCad)(uri C:/GITHUB/A1335_board/hardware/1335_rev1/lconos.pretty)(options "")(descr ""))
+)

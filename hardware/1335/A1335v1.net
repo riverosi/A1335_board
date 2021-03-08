@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\GITHUB\A1335_board\hardware\1335\A1335v1.sch)
-    (date "08/03/2021 14:10:18")
+    (date "08/03/2021 14:16:36")
     (tool "Eeschema (5.1.9)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
