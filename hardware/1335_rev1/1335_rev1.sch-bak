@@ -169,37 +169,15 @@ F 3 "" H 3400 2700 50  0001 C CNN
 	1    3400 2700
 	0    1    1    0   
 $EndComp
-$Comp
-L Jumper:Jumper_3_Bridged12 JP1
-U 1 1 6047C110
-P 1500 4200
-F 0 "JP1" V 1546 4267 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 1450 4275 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 1500 4200 50  0001 C CNN
-F 3 "~" H 1500 4200 50  0001 C CNN
-	1    1500 4200
-	0    -1   -1   0   
-$EndComp
 Text Notes 700  3600 0    79   ~ 0
 Jumpers\n
 Wire Notes Line
 	2350 500  2350 2000
-$Comp
-L power:GND #PWR0109
-U 1 1 6047FE15
-P 1500 4450
-F 0 "#PWR0109" H 1500 4200 50  0001 C CNN
-F 1 "GND" H 1505 4277 50  0000 C CNN
-F 2 "" H 1500 4450 50  0001 C CNN
-F 3 "" H 1500 4450 50  0001 C CNN
-	1    1500 4450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4300 3100 4525 3100
 Text Label 4525 3100 0    59   ~ 0
 ISEL
-Text Label 1650 4200 0    59   ~ 0
+Text Label 1475 4475 0    59   ~ 0
 ISEL
 Wire Wire Line
 	4300 2600 4500 2600
@@ -210,7 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 2900 4500 2900
 NoConn ~ 4300 3000
-Text Label 3250 2600 0    59   ~ 0
+Text Label 2700 2600 0    59   ~ 0
 BYP
 Text Label 4500 2600 0    59   ~ 0
 SA0-CS
@@ -248,11 +226,7 @@ Wire Wire Line
 	2700 2600 3400 2600
 Wire Wire Line
 	3200 2500 3400 2500
-Wire Wire Line
-	1500 3950 1500 3775
-Wire Wire Line
-	1500 3775 1550 3775
-Text Label 1550 3775 0    59   ~ 0
+Text Label 1000 4275 2    59   ~ 0
 BYP
 Text Notes 675  3875 0    59   ~ 0
 Select mode:\n
@@ -319,104 +293,268 @@ F 3 "~" H 2700 2775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 60484440
-P 2800 4175
-F 0 "JP?" V 2846 4242 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 2750 4250 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 2800 4175 50  0001 C CNN
-F 3 "~" H 2800 4175 50  0001 C CNN
-	1    2800 4175
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Jumper:Jumper_3_Bridged12 JP?
-U 1 1 604852AF
-P 4300 4175
-F 0 "JP?" V 4346 4242 50  0000 L CNN
-F 1 "Jumper_3_Bridged12" V 4250 4250 50  0000 L CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 4300 4175 50  0001 C CNN
-F 3 "~" H 4300 4175 50  0001 C CNN
-	1    4300 4175
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 60485CAE
-P 2800 4425
-F 0 "#PWR?" H 2800 4175 50  0001 C CNN
-F 1 "GND" H 2805 4252 50  0000 C CNN
-F 2 "" H 2800 4425 50  0001 C CNN
-F 3 "" H 2800 4425 50  0001 C CNN
-	1    2800 4425
-	1    0    0    -1  
+P 1500 4275
+F 0 "#PWR0109" H 1500 4025 50  0001 C CNN
+F 1 "GND" H 1505 4102 50  0000 C CNN
+F 2 "" H 1500 4275 50  0001 C CNN
+F 3 "" H 1500 4275 50  0001 C CNN
+	1    1500 4275
+	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 6048603D
-P 4300 4425
-F 0 "#PWR?" H 4300 4175 50  0001 C CNN
-F 1 "GND" H 4305 4252 50  0000 C CNN
-F 2 "" H 4300 4425 50  0001 C CNN
-F 3 "" H 4300 4425 50  0001 C CNN
-	1    4300 4425
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2800 3925 2800 3825
-Wire Wire Line
-	2800 3825 3025 3825
-Wire Wire Line
-	4300 3925 4300 3825
-Wire Wire Line
-	4300 3825 4500 3825
-Text Label 2950 4175 0    59   ~ 0
-SA0-CS
-Text Label 4450 4175 0    59   ~ 0
-SA1-MOSI
-Text Label 3025 3825 0    59   ~ 0
-BYP
-Text Label 4500 3825 0    59   ~ 0
-BYP
-Text Notes 2125 3900 0    59   ~ 0
+Text Notes 2125 3875 0    59   ~ 0
 Address A0:\n
-Text Notes 3675 3900 0    59   ~ 0
+Text Notes 3450 3875 0    59   ~ 0
 Address A1:\n
 $Comp
-L Device:CP1 C?
+L Device:CP1 C2
 U 1 1 60489789
-P 1525 2775
-F 0 "C?" H 1640 2821 50  0000 L CNN
-F 1 "CP1" H 1640 2730 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 1525 2775 50  0001 C CNN
-F 3 "~" H 1525 2775 50  0001 C CNN
-	1    1525 2775
+P 775 2725
+F 0 "C2" H 890 2771 50  0000 L CNN
+F 1 "CP1" H 890 2680 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 775 2725 50  0001 C CNN
+F 3 "~" H 775 2725 50  0001 C CNN
+	1    775  2725
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 6048A299
-P 1525 2925
-F 0 "#PWR?" H 1525 2675 50  0001 C CNN
-F 1 "GND" H 1530 2797 50  0000 R CNN
-F 2 "" H 1525 2925 50  0001 C CNN
-F 3 "" H 1525 2925 50  0001 C CNN
-	1    1525 2925
+P 775 2875
+F 0 "#PWR0112" H 775 2625 50  0001 C CNN
+F 1 "GND" H 780 2747 50  0000 R CNN
+F 2 "" H 775 2875 50  0001 C CNN
+F 3 "" H 775 2875 50  0001 C CNN
+	1    775  2875
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0113
 U 1 1 6048A929
-P 1525 2625
-F 0 "#PWR?" H 1525 2475 50  0001 C CNN
-F 1 "+5V" H 1540 2753 50  0000 L CNN
-F 2 "" H 1525 2625 50  0001 C CNN
-F 3 "" H 1525 2625 50  0001 C CNN
-	1    1525 2625
+P 775 2575
+F 0 "#PWR0113" H 775 2425 50  0001 C CNN
+F 1 "+5V" H 790 2703 50  0000 L CNN
+F 2 "" H 775 2575 50  0001 C CNN
+F 3 "" H 775 2575 50  0001 C CNN
+	1    775  2575
 	1    0    0    -1  
 $EndComp
-Text Notes 725  2250 0    79   ~ 0
+Text Notes 550  2225 0    59   ~ 0
 Decoupling capacitor\n
 Wire Notes Line
 	5000 3400 525  3400
+$Comp
+L Device:Jumper_NC_Dual JP1
+U 1 1 604A54BC
+P 1250 4275
+F 0 "JP1" H 1250 4514 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 1250 4423 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1250 4275 50  0001 C CNN
+F 3 "~" H 1250 4275 50  0001 C CNN
+	1    1250 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 4375 1250 4475
+Wire Wire Line
+	1250 4475 1475 4475
+Text Label 2150 4275 2    59   ~ 0
+BYP
+$Comp
+L power:GND #PWR0114
+U 1 1 604B459B
+P 2650 4275
+F 0 "#PWR0114" H 2650 4025 50  0001 C CNN
+F 1 "GND" H 2655 4102 50  0000 C CNN
+F 2 "" H 2650 4275 50  0001 C CNN
+F 3 "" H 2650 4275 50  0001 C CNN
+	1    2650 4275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP4
+U 1 1 604B45A1
+P 2400 4275
+F 0 "JP4" H 2400 4514 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 2400 4423 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 2400 4275 50  0001 C CNN
+F 3 "~" H 2400 4275 50  0001 C CNN
+	1    2400 4275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4375 2400 4475
+Wire Wire Line
+	2400 4475 2625 4475
+Text Label 3475 4250 2    59   ~ 0
+BYP
+$Comp
+L power:GND #PWR0115
+U 1 1 604B5642
+P 3975 4250
+F 0 "#PWR0115" H 3975 4000 50  0001 C CNN
+F 1 "GND" H 3980 4077 50  0000 C CNN
+F 2 "" H 3975 4250 50  0001 C CNN
+F 3 "" H 3975 4250 50  0001 C CNN
+	1    3975 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP7
+U 1 1 604B5648
+P 3725 4250
+F 0 "JP7" H 3725 4489 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 3725 4398 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3725 4250 50  0001 C CNN
+F 3 "~" H 3725 4250 50  0001 C CNN
+	1    3725 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 4350 3725 4450
+Wire Wire Line
+	3725 4450 3950 4450
+Text Label 2625 4475 0    59   ~ 0
+SA0-CS
+Text Label 3950 4450 0    59   ~ 0
+SA1-MOSI
+Text Notes 1125 4825 0    59   ~ 0
+Select mode:\n
+$Comp
+L Device:Jumper_NC_Dual JP2
+U 1 1 604B71D7
+P 1700 5225
+F 0 "JP2" H 1700 5464 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 1700 5373 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1700 5225 50  0001 C CNN
+F 3 "~" H 1700 5225 50  0001 C CNN
+	1    1700 5225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5325 1700 5425
+Wire Wire Line
+	1700 5425 1925 5425
+Text Notes 2725 4800 0    59   ~ 0
+Select mode:\n
+$Comp
+L Device:Jumper_NC_Dual JP5
+U 1 1 604B9F66
+P 3300 5200
+F 0 "JP5" H 3300 5439 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 3300 5348 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3300 5200 50  0001 C CNN
+F 3 "~" H 3300 5200 50  0001 C CNN
+	1    3300 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5300 3300 5400
+Wire Wire Line
+	3300 5400 3525 5400
+Text Notes 1125 5850 0    59   ~ 0
+Select mode:\n
+$Comp
+L Device:Jumper_NC_Dual JP3
+U 1 1 604BBF53
+P 1700 6250
+F 0 "JP3" H 1700 6489 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 1700 6398 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 1700 6250 50  0001 C CNN
+F 3 "~" H 1700 6250 50  0001 C CNN
+	1    1700 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 6350 1700 6450
+Wire Wire Line
+	1700 6450 1925 6450
+Text Notes 2775 5850 0    59   ~ 0
+Select mode:\n
+$Comp
+L Device:Jumper_NC_Dual JP6
+U 1 1 604BD230
+P 3350 6250
+F 0 "JP6" H 3350 6489 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 3350 6398 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 3350 6250 50  0001 C CNN
+F 3 "~" H 3350 6250 50  0001 C CNN
+	1    3350 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 6350 3350 6450
+Wire Wire Line
+	3350 6450 3575 6450
+Text Label 1925 5425 0    59   ~ 0
+SCL-CLK
+Text GLabel 1450 5225 0    50   Input ~ 0
+SCL
+Text GLabel 1950 5225 2    50   Input ~ 0
+SCK
+Text Label 3525 5400 0    59   ~ 0
+SDA-MISO
+Text GLabel 3050 5200 0    50   Input ~ 0
+SDA
+Text GLabel 3550 5200 2    50   Input ~ 0
+MISO
+Text Label 1925 6450 0    59   ~ 0
+SA0-CS
+Text GLabel 1950 6250 2    50   Input ~ 0
+CS
+Text Label 3575 6450 0    59   ~ 0
+SA1-MOSI
+Text GLabel 3600 6250 2    50   Input ~ 0
+MOSI
+$Comp
+L power:+5V #PWR0116
+U 1 1 6047ABD4
+P 2100 2300
+F 0 "#PWR0116" H 2100 2150 50  0001 C CNN
+F 1 "+5V" H 2115 2428 50  0000 L CNN
+F 2 "" H 2100 2300 50  0001 C CNN
+F 3 "" H 2100 2300 50  0001 C CNN
+	1    2100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 6047B169
+P 2100 3075
+F 0 "#PWR0117" H 2100 2825 50  0001 C CNN
+F 1 "GND" H 2105 2947 50  0000 R CNN
+F 2 "" H 2100 3075 50  0001 C CNN
+F 3 "" H 2100 3075 50  0001 C CNN
+	1    2100 3075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6047BFDB
+P 2100 2850
+F 0 "D1" V 2139 2732 50  0000 R CNN
+F 1 "LED" V 2048 2732 50  0000 R CNN
+F 2 "" H 2100 2850 50  0001 C CNN
+F 3 "~" H 2100 2850 50  0001 C CNN
+	1    2100 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6047CC80
+P 2100 2500
+F 0 "R1" H 2170 2546 50  0000 L CNN
+F 1 "R" H 2170 2455 50  0000 L CNN
+F 2 "" V 2030 2500 50  0001 C CNN
+F 3 "~" H 2100 2500 50  0001 C CNN
+	1    2100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2350 2100 2300
+Wire Wire Line
+	2100 2650 2100 2700
+Wire Wire Line
+	2100 3075 2100 3000
 $EndSCHEMATC
