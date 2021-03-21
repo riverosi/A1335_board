@@ -535,7 +535,7 @@ U 1 1 604BCAA7
 P 4625 1500
 F 0 "J2" H 4750 1500 50  0000 L CNN
 F 1 "Screw_Terminal_01x06" H 4075 1825 50  0000 L CNN
-F 2 "" H 4625 1500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal" H 4625 1500 50  0001 C CNN
 F 3 "~" H 4625 1500 50  0001 C CNN
 	1    4625 1500
 	1    0    0    -1  
@@ -612,8 +612,6 @@ Wire Wire Line
 	2575 4250 2525 4250
 Wire Wire Line
 	2300 4250 2250 4250
-Wire Notes Line
-	5000 500  5000 4250
 Wire Wire Line
 	2400 3750 2400 3650
 $Comp
@@ -622,10 +620,16 @@ U 1 1 604F1962
 P 2650 1600
 F 0 "J1" H 2800 1600 50  0000 C CNN
 F 1 "Screw_Terminal_01x05" H 2450 1275 50  0000 C CNN
-F 2 "" H 2650 1600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 2650 1600 50  0001 C CNN
 F 3 "~" H 2650 1600 50  0001 C CNN
 	1    2650 1600
 	-1   0    0    1   
 $EndComp
 NoConn ~ 3575 3000
+Wire Notes Line
+	5000 4900 525  4900
+Wire Notes Line
+	525  4900 525  4875
+Wire Notes Line
+	5000 500  5000 4900
 $EndSCHEMATC
