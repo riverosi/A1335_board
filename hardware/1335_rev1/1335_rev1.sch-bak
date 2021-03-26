@@ -343,93 +343,93 @@ Text Label 7175 1600 0    59   ~ 0
 SA0-CS
 Text Label 8500 1575 0    59   ~ 0
 SA1-MOSI
-Text Notes 5675 1950 0    59   ~ 0
+Text Notes 5650 2325 0    59   ~ 0
 Select mode:\n
 $Comp
 L Device:Jumper_NC_Dual JP2
 U 1 1 604B71D7
-P 6250 2350
-F 0 "JP2" H 6250 2589 50  0000 C CNN
-F 1 "Jumper_NC_Dual" H 6250 2498 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6250 2350 50  0001 C CNN
-F 3 "~" H 6250 2350 50  0001 C CNN
-	1    6250 2350
+P 6225 2725
+F 0 "JP2" H 6225 2964 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 6225 2873 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6225 2725 50  0001 C CNN
+F 3 "~" H 6225 2725 50  0001 C CNN
+	1    6225 2725
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 2450 6250 2550
+	6225 2825 6225 2925
 Wire Wire Line
-	6250 2550 6475 2550
-Text Notes 7275 1925 0    59   ~ 0
+	6225 2925 6450 2925
+Text Notes 7250 2300 0    59   ~ 0
 Select mode:\n
 $Comp
 L Device:Jumper_NC_Dual JP5
 U 1 1 604B9F66
-P 7850 2325
-F 0 "JP5" H 7850 2564 50  0000 C CNN
-F 1 "Jumper_NC_Dual" H 7850 2473 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7850 2325 50  0001 C CNN
-F 3 "~" H 7850 2325 50  0001 C CNN
-	1    7850 2325
+P 7825 2700
+F 0 "JP5" H 7825 2939 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 7825 2848 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7825 2700 50  0001 C CNN
+F 3 "~" H 7825 2700 50  0001 C CNN
+	1    7825 2700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7850 2425 7850 2525
+	7825 2800 7825 2900
 Wire Wire Line
-	7850 2525 8075 2525
-Text Notes 5675 2975 0    59   ~ 0
+	7825 2900 8050 2900
+Text Notes 5650 3350 0    59   ~ 0
 Select mode:\n
 $Comp
 L Device:Jumper_NC_Dual JP3
 U 1 1 604BBF53
-P 6250 3375
-F 0 "JP3" H 6250 3614 50  0000 C CNN
-F 1 "Jumper_NC_Dual" H 6250 3523 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6250 3375 50  0001 C CNN
-F 3 "~" H 6250 3375 50  0001 C CNN
-	1    6250 3375
+P 6225 3750
+F 0 "JP3" H 6225 3989 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 6225 3898 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 6225 3750 50  0001 C CNN
+F 3 "~" H 6225 3750 50  0001 C CNN
+	1    6225 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 3475 6250 3575
+	6225 3850 6225 3950
 Wire Wire Line
-	6250 3575 6475 3575
-Text Notes 7325 2975 0    59   ~ 0
+	6225 3950 6450 3950
+Text Notes 7300 3350 0    59   ~ 0
 Select mode:\n
 $Comp
 L Device:Jumper_NC_Dual JP6
 U 1 1 604BD230
-P 7900 3375
-F 0 "JP6" H 7900 3614 50  0000 C CNN
-F 1 "Jumper_NC_Dual" H 7900 3523 50  0000 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7900 3375 50  0001 C CNN
-F 3 "~" H 7900 3375 50  0001 C CNN
-	1    7900 3375
+P 7875 3750
+F 0 "JP6" H 7875 3989 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 7875 3898 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels" H 7875 3750 50  0001 C CNN
+F 3 "~" H 7875 3750 50  0001 C CNN
+	1    7875 3750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7900 3475 7900 3575
+	7875 3850 7875 3950
 Wire Wire Line
-	7900 3575 8125 3575
-Text Label 6475 2550 0    59   ~ 0
+	7875 3950 8100 3950
+Text Label 6450 2925 0    59   ~ 0
 SCL-CLK
-Text GLabel 6000 2350 0    50   Input ~ 0
+Text GLabel 5975 2725 0    50   Input ~ 0
 SCL
-Text GLabel 6500 2350 2    50   Input ~ 0
+Text GLabel 6475 2725 2    50   Input ~ 0
 SCK
-Text Label 8075 2525 0    59   ~ 0
+Text Label 8050 2900 0    59   ~ 0
 SDA-MISO
-Text GLabel 7600 2325 0    50   Input ~ 0
+Text GLabel 7575 2700 0    50   Input ~ 0
 SDA
-Text GLabel 8100 2325 2    50   Input ~ 0
+Text GLabel 8075 2700 2    50   Input ~ 0
 MISO
-Text Label 6475 3575 0    59   ~ 0
+Text Label 6450 3950 0    59   ~ 0
 SA0-CS
-Text GLabel 6500 3375 2    50   Input ~ 0
+Text GLabel 6475 3750 2    50   Input ~ 0
 CS
-Text Label 8125 3575 0    59   ~ 0
+Text Label 8100 3950 0    59   ~ 0
 SA1-MOSI
-Text GLabel 8150 3375 2    50   Input ~ 0
+Text GLabel 8125 3750 2    50   Input ~ 0
 MOSI
 $Comp
 L power:+5V #PWR0116
@@ -632,4 +632,8 @@ Wire Notes Line
 	525  4900 525  4875
 Wire Notes Line
 	5000 500  5000 4900
+Text Notes 5300 1800 0    59   ~ 0
+1-2 SPI Mode\n2-3 I2C Mode
+Text Notes 6675 1825 0    59   ~ 0
+1-2\n2-3
 $EndSCHEMATC
