@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name BQ34110PW)(type Legacy)(uri ${KIPRJMOD}/TSSOP14.pretty/BQ34110PW.lib)(options "")(descr ""))
+  (lib (name dcdc_module)(type Legacy)(uri C:/GITHUB/Pedal_Board/hw/pedal_board/dcdc_module.lib)(options "")(descr ""))
 )
