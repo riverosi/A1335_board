@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 1
 Title "A1335 Allegro Sensor Board"
 Date "2021-03-29"
 Rev "2.0"
@@ -213,7 +213,7 @@ U 1 1 6049E44B
 P 2250 2825
 F 0 "C1" H 2365 2871 50  0000 L CNN
 F 1 "100n" H 2365 2780 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 2250 2825 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_Pad1.30x1.05mm_HandSolder" H 2250 2825 50  0001 C CNN
 F 3 "~" H 2250 2825 50  0001 C CNN
 	1    2250 2825
 	1    0    0    -1  
@@ -239,7 +239,7 @@ U 1 1 60489789
 P 1025 2775
 F 0 "C2" H 1140 2821 50  0000 L CNN
 F 1 "100n" H 1140 2730 50  0000 L CNN
-F 2 "Capacitor_Tantalum_SMD:CP_EIA-1608-08_AVX-J" H 1025 2775 50  0001 C CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-2012-15_AVX-P_Pad1.30x1.05mm_HandSolder" H 1025 2775 50  0001 C CNN
 F 3 "~" H 1025 2775 50  0001 C CNN
 	1    1025 2775
 	1    0    0    -1  
