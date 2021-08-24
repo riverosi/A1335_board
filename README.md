@@ -1,11 +1,15 @@
 # A1335_board Project v1
 Reposiorio de la pcb que usa el sensor [A1335](https://www.allegromicro.com/en/products/sense/linear-and-angular-position/angular-position-sensor-ics/a1335) de Allegro.
 
-![Vista back](/hardware/img/back_pcb.PNG)
-![Vista front](/hardware/img/front_pcb.PNG)
+<img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/back_pcb.PNG" alt="Your image title" width="250"/>
+<img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/front_pcb.PNG" alt="Your image title" width="250"/>
+
+# Montaje final del PCB con el Bumper:
+
+<img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/pcb_montado.jpeg" alt="Your image title" width="500"/>
 
 ## Firmware
-En la carpeta firmware están los archivos `__angle_driver.h` y `__angle_driver.c`, que son los drivers en c para la plataforma de desarollo EDU-CIAA. En el main hay un ejemplo de como inicializar el dispositivo con las direcciones correspondientes al hardware que se desarrollo en la v1. 
+En la carpeta firmware están los archivos `__angle_driver.h` y `__angle_driver.c`, que son los drivers en c para la plataforma de desarollo EDU-CIAA. En el main hay un ejemplo de como inicializar el dispositivo con las direcciones correspondientes al hardware que se desarrollo en la v1 (0x0C). 
 
 ## Software
 Para desarrollar la placa se uso:
