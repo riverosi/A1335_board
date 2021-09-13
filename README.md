@@ -1,8 +1,19 @@
 # A1335_board Project v1
-Reposiorio de la pcb que usa el sensor [A1335](https://www.allegromicro.com/en/products/sense/linear-and-angular-position/angular-position-sensor-ics/a1335) de Allegro.
+Reposiorio de la pcb que usa el sensor [A1335](https://www.allegromicro.com/en/products/sense/linear-and-angular-position/angular-position-sensor-ics/a1335) de Allegro. Esta vesión tiene los siguientes requerimientos:
+- [x] Los capacitores de desacople van a ir cerca del integrado
+- [x] La mascara tendra una simbologia con la asigancion de pines
+- [x] No se usaran las anotaciones en el cobre
+- [x] Dimensiones propuestas: 50x40 mm
+- [x] Se usaran pines como conectores
+- [x] Tendrá 4 mountingholes tamaño M3
+Vistas 3d del PCB:
 
-<img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/back_pcb.PNG" alt="Your image title" width="250"/>
-<img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/front_pcb.PNG" alt="Your image title" width="250"/>
+<p align="center">
+  <img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/back_pcb.PNG" alt="Your image title" width="250"/>
+</p>
+<p align="center">
+  <img src="https://github.com/riverosi/A1335_board/blob/main/hardware/img/front_pcb.PNG" alt="Your image title" width="250"/>
+</p>
 
 # Montaje final del PCB con el Bumper:
 
@@ -19,11 +30,3 @@ Para desarrollar la placa se uso:
 
 ## Hardware
 Para desarrollar la placa se uso **Kicad**, se debe de incluir la libraria HALL con el simbolo del componente A1335.
-
-## Esta en desarrollo la v2 con las siguientes mejoras:
-- [ ] Los capacitores de desacople van a ir cerca del integrado
-- [ ] La mascara tendra una simbologia con la asigancion de pines
-- [ ] No se usaran las anotaciones en el cobre
-- [ ] Dimensiones propuestas: 50x40 mm
-- [ ] Se usaran pines como conectores
-- [ ] Tendrá 4 mountingholes tamaño M3
